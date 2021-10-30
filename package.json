@@ -1,11 +1,11 @@
 {
   "name": "cloudflare-submission",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "serve out",
+    "start": "next start",
     "preexport": "npm run build",
     "export": "next export",
     "prestart": "npm run export",
